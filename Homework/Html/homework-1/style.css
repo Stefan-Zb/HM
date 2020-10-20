@@ -1,0 +1,59 @@
+h1, h2{text-align: center;}
+
+.name{color: chartreuse;
+font-size: 30px;
+margin-top: 50px;
+text-align: center;}
+
+.a-1{background: #edf50a;
+    height: 10px;}
+
+.kursyv{font-style: italic;
+font-size: 20px;
+color: blue;}
+
+#a{width: 100%;
+height: 600px;
+    margin-top: 20px;
+margin-bottom: 20px;}
+
+.jpeg{width: 700px;
+height: 400px;}
+
+.text{font-size: 20px;
+margin-top: 10px;
+margin-bottom: 10px;}
+
+.border{background: lawngreen;
+width: 700px;
+box-sizing: border-box;
+border: 10px #fa0b04 double;
+    padding: 10px;
+    margin: 10px 10px 10px 0;}
+
+.tisto, .nachinka{background: #edf50a;
+width: 700px;
+box-sizing: border-box;
+border: 10px black dotted}
+
+#scroll{width: 700px;
+height: 200px;
+overflow: auto;}
+
+#sm{background: chartreuse;
+color: #fa0b04;
+text-align: center;
+font-size: 50px;
+margin-top: 50px;
+margin-bottom: 30px;
+padding: 20px;
+    border: 20px yellow dashed;}
+
+/*background: ;колір фону*/
+/*margin:; відступ*/
+/*font-size: ; розмір шрифту*/
+/*font-weight: ;жирність */
+/*    width: ; ширина*/
+/*    height: ;висота*/
+
+

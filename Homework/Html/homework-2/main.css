@@ -1,0 +1,37 @@
+.black {
+    width: 810px;
+    height: 500px;
+    background: black;
+    float: left;
+    position: absolute;
+    /*z-index: -1;*/
+}
+.red, .green, .blue, .black2
+{width: 200px;
+    height: 400px;}
+
+.orange, .orange2{width: 800px;
+height: 45px;
+}
+
+.orange {background: orange;
+margin-left: 5px;
+margin-top: 5px;}
+
+.red{background: red;
+margin-left: 5px;
+float: left;
+    }
+
+.green{background: green;
+float: left;}
+
+.blue{background: blue;
+float: left;}
+
+.black2{background: black;
+float: left;}
+
+.orange2{background: orange;
+float: left;
+margin-left: 5px;}

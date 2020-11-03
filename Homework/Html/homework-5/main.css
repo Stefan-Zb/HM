@@ -1,0 +1,44 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+.head{
+  background: coral;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.white{
+  display: flex;
+  justify-content: center;
+  background: white;
+  height: 50%;
+  width: 80%;
+  margin: 10px auto 0 auto;
+  flex-wrap: wrap;
+}
+
+.black{
+  background: black;
+  width: 80%;
+  height: 20%;
+}
+
+.red{
+background: red;
+  width: 45%;
+  height: 20%;
+
+}
+
+.green{
+background: green;
+  width: 45%;
+  height: 20%;
+}

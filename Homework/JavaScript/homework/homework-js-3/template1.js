@@ -15,28 +15,28 @@
 //
 // let men = {
 //   name: 'Stefan',
-//   age: 28,
-//   surname: 'Chornii',
+//   age: 27,
+//   lastName: 'Zbyshko',
 //   hasPhone: true,
 //   hasWife: false,
 //   }
 // console.log(man);
 //
 // let car = {
-//   brand: 'Skoda',
-//   model: 'Octavia',
-//   year: 2008,
-//   type: 'sedan',
+//   brand: 'Ford',
+//   model: 'Mustang',
+//   year: 2015,
+//   type: 'universal',
 //   color: 'green'
 // }
 // console.log(car);
 //
 // let flat = {
 //     s : 150,
-//     rooms : 2,
+//     rooms : 3,
 //     hasGarage : false,
 //     hasBalcony : true,
-//     price : 50000
+//     price : 250000
 // }
 // console.log(flat);
 //
@@ -45,7 +45,7 @@
 //     name : 'Tini vitru',
 //     since : 1917,
 //     autor : 'Carlos Safon',
-//     city : 'London'
+//     city : 'Barselona'
 // }
 // console.log(book);
 
@@ -122,7 +122,7 @@
 //
 //         // - сумка
 //
-// let sumka = {
+// let fjgd = {
 //     style : ['sdhs', 'scb'],
 //     parameters : {
 //         forAge : 20,
@@ -131,7 +131,7 @@
 //     madeIn : 'USA',
 //     forChildren : false,
 // }
-// console.log(sumka);
+// console.log(fjgd);
 //
 //         // Дан массив:
 //

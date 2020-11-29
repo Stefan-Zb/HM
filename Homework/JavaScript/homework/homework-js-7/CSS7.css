@@ -2,7 +2,62 @@
   margin-top: 20px;
 }
 
-input {
+input, #self, #table2 {
   margin-top: 20px;
+  margin-bottom: 5px;
 }
+
+button {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.border {
+  border:2px solid red;
+}
+
+#text, #vik, #coment, #table {
+  background-color: lightslategray;
+}
+
+#self, #menu, #form61, #form62, #table2 {
+  background-color: #cccccc;
+}
+
+.carusel {
+width: 800px;
+  height: 500px;
+  border: 1px solid silver;
+  overflow: hidden;
+  display: flex;
+
+ }
+
+img {
+  display: block;
+  width: 800px;
+  height: 500px;
+}
+
+.photo {
+  display: flex;
+
+}
+
+#left, #right {
+  color: chartreuse;
+  font-size: 100px;
+
+}
+
+.clickk {
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 

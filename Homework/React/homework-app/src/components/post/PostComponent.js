@@ -5,12 +5,17 @@ class PostComponent extends Component {
 
 
   render() {
-    let {item, selectPost} = this.props;
+    let {item, selectPost, showBatton, showBody} = this.props;
     return (
       <div>
-        {item.id}-{item.title}
+        {item.id}
         <br/>
-        <button onClick={() => selectPost(item.id)}>Klick</button>
+        {item.title}
+        <br/>
+        {showBody && item.body}
+        {showBatton &&
+        <button onClick={() => selectPost(item.id)}>Klick</button>}
+        <hr/>
       </div>
     );
   }

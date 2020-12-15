@@ -29,13 +29,15 @@ state = {posts: [], comment: null};
           posts.map(value => <PostComponent
             item={value}
             key={value.id}
-            selectPost = {this.selectPost}/>)
+            selectPost = {this.selectPost}
+            showBatton = {true}
+            showBody = {false}/>)
         }
         </div>
 
       <div className={'two'}>
         {
-          comment && <PostComponent item={comment}/>
+          comment && <h2><PostComponent item = {comment} showBatton = {false} showBody = {true}/></h2>
         }
       </div>
       </div>

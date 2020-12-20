@@ -1,23 +1,25 @@
 import React, {Component} from 'react';
 import PostComponent from "../post/PostComponent";
 import './allPosts.css'
+import PostServices from "../../serviсes/PostServices";
 
 class AllPostsComponent extends Component {
+
+  postServices = new PostServices();
 
 state = {posts: [], comment: null};
 
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/posts')
-      .then(value => value.json())
-      .then(usersFromAPI => {
-        this.setState({posts: usersFromAPI});
-
-      })
+this.postServices.getOllPosts().then(usersFromAPI => this.setState({posts: usersFromAPI}));
   }
 
+  // selectPost = (id) => {
+  //   let comment = this.state.posts.find(value => value.id===id);
+  //   this.setState({comment});
+  // }
+
   selectPost = (id) => {
-    let comment = this.state.posts.find(value => value.id===id);
-    this.setState({comment});
+    this.postServices.getPostID(id).then(value => this.setState({comment: value}))
   }
 
   render() {
